@@ -1,0 +1,64 @@
+
+  /*GENERAL STYLES*/
+  *
+  {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+  #main-body
+  {
+    background-color: #EDEDED;
+  }
+
+  .titles
+  {
+    border-bottom: 0.15rem #c1c1c1 solid;
+    width: auto;
+    word-wrap: break-word;
+    display:inline-block;
+    width: fit-content;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  /*END*/
+
+
+  /*NAVBAR STYLES*/
+  #main-nav
+  {
+    margin-top: 0;
+    background-color: #283346;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #app-container
+  {
+    margin-top: 10rem;
+  }
+
+  #notes-container
+  {
+    flex-wrap: wrap;
+  }
+
+
+  #loginButton, #registerButton
+  {
+    width: 10rem;
+  }
+
+  .card-body
+  {
+    flex: 0 0;
+    background-color: white;
+    border: 1px solid rgb(0 0 0 / 13%);
+    border-radius: 10%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
